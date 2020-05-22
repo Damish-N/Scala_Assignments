@@ -3,7 +3,7 @@ object ques_03 extends App {
         var cover_page_price : Double = (24.95)*(0.6)*books;
         var shipping_cost : Double  = 0.0;
         if(books > 50) {
-          shipping_cost= (3*50)+((books-50)*(3.75));
+          shipping_cost= (3*50)+((books-50)*(0.75));
         }else{
           shipping_cost= (books * 3) ;
         }
