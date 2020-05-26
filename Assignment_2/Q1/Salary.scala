@@ -12,5 +12,5 @@ object Salary extends App {
 		Income(normalhours,othours)-TaxtoPay(Income(normalhours,othours));
 
 	}
-	println("The take homr Salary is Rs:"+" "+TakeHomeSalary(40,20));
+	println("The take homr salary is Rs:"+" "+TakeHomeSalary(40,20));
 }
