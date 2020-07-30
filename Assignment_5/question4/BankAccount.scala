@@ -1,6 +1,6 @@
 import scala.collection.immutable._  
 import scala.math.BigDecimal
-object BankAccount extends App {
+object BankAccount extends   App {
     class Account (id:String,n:Int,b:Double){
         val nic : String = id
         val acc_number: Int = n
